@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>إنشاء حساب</h1>
+    <form method="post">
+        <label for="username">اسم المستخدم:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="age">العمر:</label>
+        <input type="number" min="5" max="100"  step="1"id="age" name="age" required><br><br>
+
+        <label>الجنس:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required >
+        <label for="male">ذكر</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">أنثى</label><br><br>
+
+        <label for="password">كلمة المرور:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="تسجيل">
+    </form>
+    <nav>
+        <a href="index.html">العودة إلى الصفحة الرئيسية</a>
+    </nav> 
+</body>
+</html>
